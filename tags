@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/obuntu/.config/nvim/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$NVIM_TUI_ENABLE_TRUE_COLOR	init.vim	/^  let $NVIM_TUI_ENABLE_TRUE_COLOR=1$/;"	v
+<C-H>	mapping.vim	/^map <C-H> <C-W>h<C-W><esc>$/;"	m
+<C-J>	mapping.vim	/^map <C-J> <C-W>j<C-W><esc>$/;"	m
+<C-K>	mapping.vim	/^map <C-K> <C-W>k<C-W><esc>$/;"	m
+<C-L>	mapping.vim	/^map <C-L> <C-W>l<C-W><esc>$/;"	m
+<C-m>	mapping.vim	/^map <C-m> :bprev<cr>$/;"	m
+<C-n>	mapping.vim	/^map <C-n> :bnext<cr>$/;"	m
+<F8>	plugins.vim	/^nmap <F8> :TagbarToggle<CR>$/;"	m
+<Leader>v	plugins.vim	/^nnoremap <silent> <Leader>v :NERDTreeFind<CR>$/;"	m
+<tab>	plugins.vim	/^map <tab> :NERDTreeToggle <CR>$/;"	m
+ALEClearBuffer	plugins.vim	/^fun! ALEClearBuffer(buffer)$/;"	f
+NERDTreeAutoDeleteBuffer	plugins.vim	/^let NERDTreeAutoDeleteBuffer = 1$/;"	v
+NERDTreeDirArrows	plugins.vim	/^let NERDTreeDirArrows = 1$/;"	v
+NERDTreeMinimalUI	plugins.vim	/^let NERDTreeMinimalUI = 1$/;"	v
+NERDTreeQuitOnOpen	plugins.vim	/^let NERDTreeQuitOnOpen = 1$/;"	v
+UnALE	plugins.vim	/^augroup UnALE$/;"	a
+g:NERDTreeGitStatusIndicatorMapCustom	plugins.vim	/^let g:NERDTreeGitStatusIndicatorMapCustom = {$/;"	v
+g:ackprg	plugins.vim	/^  let g:ackprg = 'ag --vimgrep'$/;"	v
+g:ale_echo_msg_format	plugins.vim	/^let g:ale_echo_msg_format = '[%linter%] %s [%severity%:%code%]'$/;"	v
+g:ale_fix_on_save	plugins.vim	/^let g:ale_fix_on_save = 1$/;"	v
+g:ale_fixers	plugins.vim	/^let g:ale_fixers = {$/;"	v
+g:ctrlp_custom_ignore	plugins.vim	/^let g:ctrlp_custom_ignore = {$/;"	v
+g:ctrlp_user_command	plugins.vim	/^let g:ctrlp_user_command = {$/;"	v
+g:ctrlp_working_path_mode	plugins.vim	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v
+g:gruvbox_italic	init.vim	/^let g:gruvbox_italic=1$/;"	v
+vimrcEx	init.vim	/^augroup vimrcEx$/;"	a

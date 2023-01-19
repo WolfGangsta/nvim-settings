@@ -17,6 +17,16 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
+" C++ syntax
+packadd! vim-cpp-enhanced-highlight
+
+" tagbar
+packadd! tagbar
+nmap <F8> :TagbarToggle<CR>
+
+" Gutentags
+packadd! vim-gutentags
+
 " NERDTree
 map <tab> :NERDTreeToggle <CR>
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>
@@ -78,6 +88,9 @@ augroup UnALE
   autocmd!
   autocmd TextChanged,TextChangedI,InsertEnter,InsertLeave * call ALEClearBuffer(bufnr('%'))
 augroup END
+
+" https://github.com/dense-analysis/ale/issues/4255
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%:%code%]'
 
 " For GitGutter--decreasing delay
 set updatetime=100
