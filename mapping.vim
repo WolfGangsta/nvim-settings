@@ -1,6 +1,6 @@
 " editor keyboard shortcuts
-map <C-n> :bnext<cr>
-map <C-m> :bprev<cr>
+" map <C-n> :bnext<cr>
+" map <C-m> :bprev<cr>
 
 " Move between windows
 map <C-J> <C-W>j<C-W><esc>
